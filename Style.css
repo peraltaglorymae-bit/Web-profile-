@@ -1,0 +1,76 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.profile-container {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 600px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.bio {
+  font-size: 14px;
+  color: #555;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: #0056b3;
+}
+
+.projects {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  background: #f0f8ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.projects li:hover {
+  transform: scale(1.03);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
