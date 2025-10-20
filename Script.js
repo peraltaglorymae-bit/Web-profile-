@@ -15,13 +15,3 @@ fetch('data.json')
     document.getElementById('skills-list').textContent = 'Error loading data.';
     console.error('Error fetching JSON:', error);
   });
-
-{
-  "skills": [
-    "HTML, CSS, and JavaScript",
-    "Web Design and UX/UI",
-    "Problem Solving",
-    "Team Collaboration",
-    "Music and Creative Media"
-  ]
-    }
