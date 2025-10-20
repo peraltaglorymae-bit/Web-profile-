@@ -1,0 +1,18 @@
+
+{
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "description": "A responsive personal portfolio built using HTML, CSS, and JavaScript."
+    },
+    {
+      "name": "MusicBox App",
+      "description": "A prototype web app for sharing and streaming music tracks."
+    },
+    {
+      "name": "Internship Survey",
+      "description": "A data collection web project for analyzing IT students’ career preferences."
+    }
+  ]
+}
+
